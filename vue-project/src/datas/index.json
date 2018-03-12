@@ -1,0 +1,80 @@
+{
+    "code": 0,
+    "msg": "OK ",
+    "data": [
+        {
+            "part_name": [
+                {
+                    "part_name": "变速箱保养"
+                },
+                {
+                    "part_name": "接头"
+                },
+                {
+                    "part_name": "油品"
+                },
+                {
+                    "part_name": "滤网"
+                },
+                {
+                    "part_name": "工具套包"
+                }
+            ]
+        },
+        {
+            "part_name": [
+                {
+                    "part_name": "机油滤清器"
+                },
+                {
+                    "part_name": "燃油滤清器"
+                },
+                {
+                    "part_name": "空调滤清器"
+                },
+                {
+                    "part_name": "空气滤清器"
+                }
+            ]
+        },
+        {
+            "part_name": [
+                {
+                    "part_name": "后刹车片"
+                },
+                {
+                    "part_name": "前感应线"
+                },
+                {
+                    "part_name": "前刹车片"
+                },
+                {
+                    "part_name": "手刹车片"
+                },
+                {
+                    "part_name": "后感应线"
+                },
+                {
+                    "part_name": "鼓刹车片"
+                }
+            ]
+        },
+        {
+            "part_name": [
+                {
+                    "part_name": "蓄电池"
+                }
+            ]
+        },
+        {
+            "part_name": [
+                {
+                    "part_name": "前刹车盘"
+                },
+                {
+                    "part_name": "后刹车盘"
+                }
+            ]
+        }
+    ]
+}
