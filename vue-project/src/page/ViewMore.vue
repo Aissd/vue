@@ -25,9 +25,9 @@
 </template>
 
 <script>
-    import indexData from '@/datas/index.json';
+    import viewMoreData from '@/datas/viewmore.json';
     export default {
-        name: 'index',
+        name: 'ViewMore',
         data() {
             return {
                 tableList: []
@@ -38,7 +38,7 @@
         },
         methods: {
             pageInitFn() {
-                let data = indexData.data;
+                let data = viewMoreData.data;
                 this.tableList = data.map(item => {
                     item.len = 3;
                     return item;
@@ -52,5 +52,7 @@
 </script>
 
 <style scoped>
-
+    .table td {
+        cursor: pointer;
+    }
 </style>

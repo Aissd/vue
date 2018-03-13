@@ -1,15 +1,21 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import index from '@/page/index';
+import ViewMore from '@/page/ViewMore';
+import Tab from '@/page/Tab';
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
     routes: [
         {
             path: '/',
-            name: 'index',
-            component: index
+            name: 'tab',
+            component: Tab
+        },
+        {
+            path: '/viewMore',
+            name: 'viewMore',
+            component: ViewMore
         }
     ]
 });
