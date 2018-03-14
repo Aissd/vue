@@ -1,14 +1,18 @@
 import * as types from '@/store/types';
-console.log(types);
+
 // 驱动应用的数据源
 const state = {
-    productList: []
+    productList: [],
+    pageSkin: null
 };
 
 // 渲染数据
 const getters = {
     [types.DONE_PRODUCT_LIST]: state => {
         return state.productList;
+    },
+    [types.DONE_PAGE_SKIN]: state => {
+        return state.pageSkin;
     }
 };
 
@@ -16,6 +20,9 @@ const getters = {
 const mutations = {
     [types.TOGGLE_PRODUCT_LIST](state, data) {
         state.productList = data;
+    },
+    [types.TOGGLE_PAGE_SKIN](state, data) {
+        state.pageSkin = data;
     }
 };
 
@@ -24,6 +31,9 @@ const actions = {
     [types.FETCH_PRODUCT_LIST]({commit}) {
         let data = require('../../datas/VuexPage.json');
         commit(types.TOGGLE_PRODUCT_LIST, data.data);
+    },
+    [types.FETCH_PAGE_SKIN]({commit}, skin) {
+        commit(types.TOGGLE_PAGE_SKIN, skin);
     }
 };
 

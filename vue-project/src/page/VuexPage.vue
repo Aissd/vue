@@ -25,7 +25,7 @@
                         <span v-else>无</span>
                     </td>
                     <td v-text="item.product_price"></td>
-                    <td v-text="item.product_type"></td>
+                    <td v-text="transformType(item.product_type)"></td>
                     <td v-text="item.product_createTime"></td>
                     <td v-text="item.product_storeNum"></td>
                 </tr>
@@ -54,6 +54,16 @@
             pageInitFn() {
                 this.$store.dispatch(types.FETCH_PRODUCT_LIST);
                 this.productList = this.DONE_PRODUCT_LIST;
+            },
+            transformType(type) {
+                switch(type) {
+                    case '1':
+                        return '饮料';
+                    case '2':
+                        return '饼干';
+                    case '3':
+                        return '其他';
+                }
             }
         }
     }
