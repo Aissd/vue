@@ -9,18 +9,18 @@
      -->
     <div class="router">
         <h1>命名的路由</h1>
-        <a href="javascript:;" @click="routerTo('route', { address: 'A' })">地址A</a>
-        <a href="javascript:;" @click="routerTo('route', { address: 'B' })">地址B</a>
+        <a href="javascript:;" @click="routerTo('routePage', { address: 'A' })">地址A</a>
+        <a href="javascript:;" @click="routerTo('routePage', { address: 'B' })">地址B</a>
         <h1>带查询参数</h1>
-        <a href="javascript:;" @click="router('route', { address: 'C' })">地址C</a>
-        <a href="javascript:;" @click="router('route', { address: 'D' })">地址D</a>
+        <a href="javascript:;" @click="router('routePage', { address: 'C' })">地址C</a>
+        <a href="javascript:;" @click="router('routePage', { address: 'D' })">地址D</a>
     </div>
 </template>
 
 <script>
     import router from '@/router';
     export default {
-        name: 'Route',
+        name: 'RoutePage',
         watch: {
             '$route': 'pageInitFn' // 路由地址不变，只是参数发生了变化，就会触发函数
         },

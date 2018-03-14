@@ -1,0 +1,69 @@
+{
+    "code": 0,
+    "msg": "OK ",
+    "data": [
+        {
+            "product_id": "10000",
+            "product_name": "可口可乐",
+            "product_img": null,
+            "product_price": "2.00",
+            "product_type": "1",
+            "product_createTime": "2018-03-14 11:23:30",
+            "product_storeNum": "90"
+        },
+        {
+            "product_id": "20000",
+            "product_name": "趣多多",
+            "product_img": null,
+            "product_price": "6.00",
+            "product_type": "2",
+            "product_createTime": "2018-03-14 11:23:30",
+            "product_storeNum": "990"
+        },
+        {
+            "product_id": "20001",
+            "product_name": "奥利奥",
+            "product_img": null,
+            "product_price": "3.50",
+            "product_type": "2",
+            "product_createTime": "2018-03-14 11:23:30",
+            "product_storeNum": "960"
+        },
+        {
+            "product_id": "30000",
+            "product_name": "雀巢咖啡",
+            "product_img": null,
+            "product_price": "1.50",
+            "product_type": "3",
+            "product_createTime": "2018-03-14 11:23:30",
+            "product_storeNum": "200"
+        },
+        {
+            "product_id": "10001",
+            "product_name": "雪碧",
+            "product_img": null,
+            "product_price": "2.00",
+            "product_type": "1",
+            "product_createTime": "2018-03-14 11:23:30",
+            "product_storeNum": "100"
+        },
+        {
+            "product_id": "20002",
+            "product_name": "丹麦蓝罐曲奇",
+            "product_img": null,
+            "product_price": "99.00",
+            "product_type": "2",
+            "product_createTime": "2018-03-14 11:23:30",
+            "product_storeNum": "10"
+        },
+        {
+            "product_id": "10002",
+            "product_name": "红牛",
+            "product_img": null,
+            "product_price": "5.00",
+            "product_type": "1",
+            "product_createTime": "2018-03-14 11:23:30",
+            "product_storeNum": "400"
+        }
+    ]
+}
