@@ -25,7 +25,7 @@
 </template>
 
 <script>
-    import viewMoreData from '@/datas/viewmore.json';
+    import viewMoreData from '@/datas/ViewMore.json';
     export default {
         name: 'ViewMore',
         data() {

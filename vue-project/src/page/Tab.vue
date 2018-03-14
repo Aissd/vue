@@ -37,7 +37,7 @@
 
 <script>
     import router from '@/router';
-    import tabData from '@/datas/tab.json';
+    import tabData from '@/datas/Tab.json';
     export default {
         name: 'Tab',
         data() {
