@@ -8,15 +8,13 @@ import '@/assets/css/main.scss';
 
 Vue.config.productionTip = false;
 
-// 根据路由地址切换title
-router.beforeEach((to, from, next) => {
-    console.log(from);
-    console.log(next);
-    // to 和 from 都是 路由信息对象
-    if(to.meta.title) {
-        document.title = to.meta.title;
-    }
-});
+// // 根据路由地址切换title
+// router.beforeEach((to) => {
+//     // to 和 from 都是 路由信息对象
+//     if(to.meta.title) {
+//         document.title = to.meta.title;
+//     }
+// });
 
 /* eslint-disable no-new */
 new Vue({
